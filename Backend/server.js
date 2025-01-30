@@ -11,6 +11,7 @@ cloudinary.v2.config({
 app.post('/predict', async (req, res) => {
   try {
     const data = req.body;
+    //
 
     // Make a POST request to the Flask API
     const response = await axios.post('http://localhost:5001/predict', data);
