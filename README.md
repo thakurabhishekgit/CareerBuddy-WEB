@@ -64,3 +64,106 @@ Career Buddy is an advanced AI-driven career guidance platform designed to help 
 🧠 Machine Learning & AI (Career prediction models)
 🎞 Video Streaming (For mentor-led sessions)
 🔒 JWT Authentication (For secure access control)
+The Career Buddy platform addresses the critical gap in career counseling and guidance in schools, which
+often leads to uninformed career choices and mismatched skills among students. By harnessing the power
+of artificial intelligence, the platform provides personalized career advice tailored to individual strengths,
+interests, and market trends. Key features include mentorship programs connecting students with
+professionals, interactive career exploration tools with simulations and videos, and a comprehensive
+resource portal offering insights into various career paths and educational requirements. This innovative
+approach aims to empower students to make informed decisions, bridge the skills gap, and align their
+aspirations with real-world opportunities, fostering social mobility and reducing career-related anxiety.
+
+The Career Buddy platform integrates advanced technologies and methodologies, including:
+AI-Powered Career Guidance: Personalized career advice based on individual strengths, interests, and
+market trends.
+Mentorship Programs: Professional guidance tailored to students' career aspirations.
+Interactive Career Exploration: Virtual simulations and interactive content to explore diverse career
+paths.
+Comprehensive Career Resources: Centralized portals detailing career options, skills, pathways, and
+trend
+
+Packages to Install
+Node.js: Ensure you have Node.js installed on your system. Download it from Node.js Official Website.
+Express: A fast, unopinionated web framework for Node.js.
+Mongoose: For MongoDB interaction.
+bcrypt: To hash passwords securely.
+jsonwebtoken: To implement authentication using JWT.
+dotenv: To manage environment variables securely.
+multer: To handle file uploads (e.g., videos).
+cors: To enable cross-origin requests (optional for frontend-backend interaction).
+nodemon (optional): Automatically restarts the server when file changes are detected
+
+# Initialize Node.js project
+
+npm init -y
+
+# Install required packages
+
+npm install express mongoose bcrypt jsonwebtoken dotenv multer cors
+
+# Install development dependencies (optional)
+
+npm install --save-dev nodemon
+
+PORT=5000
+MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<database_name>?retryWrites=true&w=majority
+JWT_SECRET=your_jwt_secret_key
+
+go to directory
+cd backend
+run the command
+nodemon server.js
+
+FRONTEND----
+
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Install Packages
+Run the following commands to initialize and install dependencies for the frontend:
+
+Navigate to your frontend folder:
+
+bash
+Copy code
+cd frontend
+npm install
+npm run dev
+Key Installed Dependencies
+Here are some of the important packages from your package.json:
+
+React Ecosystem:
+
+react, react-dom: Core React library.
+react-router-dom: For routing.
+react-icons: For adding icons.
+react-redux: Redux state management.
+Utilities:
+
+axios: For making HTTP requests.
+lodash: Utility functions.
+react-toastify: Toast notifications.
+styled-components: CSS-in-JS styling.
+Visualization:
+
+chart.js, react-chartjs-2: For charts and graphs.
+Frontend Development Tools:
+
+vite: Fast development server.
+eslint: Linter for JavaScript/React.
+@vitejs/plugin-react: React plugin for Vite.
+
+VITE v5.3.4 ready in 120 ms
+
+➜ Local: http://localhost:3000/
+➜ Network: use --host to expose
+
+directly install
+rm -rf node_modules package-lock.json
+npm install
