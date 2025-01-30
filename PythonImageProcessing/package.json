@@ -1,0 +1,16 @@
+{
+  "name": "ir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gemini-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.18.0",
+    "axios": "^1.7.7"
+  }
+}
