@@ -1,7 +1,7 @@
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 
-const apiKey = "AIzaSyAFXOKE8qMD6tECr9A9JT9OMPKFcrQIvp4";
+const apiKey = "";
 const concept = process.argv[2]; 
 const genAI = new GoogleGenerativeAI(apiKey);
 
