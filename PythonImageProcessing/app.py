@@ -9,8 +9,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Use environment variables for sensitive information
-API_KEY = '87ebb7a3f88841c7a0227b4deb9d039f'
-API_URL = 'https://api.clarifai.com/v2/models/general-image-recognition/outputs'
+API_KEY = ''
+API_URL = ''
 
 def encode_image_to_base64(image_path):
     """Encode an image file to base64."""
