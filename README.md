@@ -1,4 +1,5 @@
-🚀 Career Buddy - AI-Powered Career Guidance System
+🚀 Career Buddy 
+- AI-Powered Career Guidance System
 🌟 Overview
 Career Buddy is an advanced AI-driven career guidance platform designed to help students make informed career decisions. Using machine learning, it predicts the best career paths based on students' interests, academic performance, and uploaded images. The platform also connects students with experienced mentors and provides administrative tools for schools and colleges to manage students effectively.
 
